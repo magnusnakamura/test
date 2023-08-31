@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo apt update
-sudo apt install python3-pip -y
-sudo pip3 install cryptography
+apt update
+apt install python3-pip -y
+pip3 install cryptography
 cat > /var/atlassian/application-data/confluence/encrypt.py <<EOF
 #!/usr/bin/python3
 import os
